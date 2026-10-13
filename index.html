@@ -13,7 +13,9 @@
   <title>Қазақтың ұлттық ойыны — асық ату</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/asyq-hero.webp" as="image">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" href="assets/noto-sans-cyrillic-ext.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/noto-sans-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=20261013-noto">
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -70,7 +72,7 @@
     <div class="heritage-strip"><div class="container strip-inner"><span>ДӘСТҮР</span><span class="strip-star">✳</span><span>МЕРГЕНДІК</span><span class="strip-star">✳</span><span>ЕПТІЛІК</span><span class="strip-star">✳</span><span>ДОСТЫҚ</span><span class="strip-star">✳</span><span>ҰЛТТЫҚ МҰРА</span></div></div>
 
     <section id="murasy" class="section container heritage-section">
-      <div class="section-intro reveal"><p class="eyebrow">01 / ДӘСТҮР МЕН ТАРИХ</p><h2>Кішкентай асық.<br><span class="serif">Үлкен тарих.</span></h2></div>
+      <div class="section-intro reveal"><p class="eyebrow">01 / ДӘСТҮР МЕН ТАРИХ</p><h2>Кішкентай асық.<br><span class="text-accent">Үлкен тарих.</span></h2></div>
       <div class="heritage-body reveal">
         <p class="lead">Асық ойыны қазақ халқының тұрмысымен, мал шаруашылығымен және бала тәрбиесімен біте қайнасқан.</p>
         <p>Балалар асықтарын жинап, сақасын таңдап, аулада бірге ойнаған. Ойын барысында көзбен мөлшерлеуді, кезек күтуді, ортақ ережені сақтауды үйренген. Осы дәстүр отбасында және үлкендердің үйретуі арқылы ұрпақтан ұрпаққа жетті.</p>
@@ -81,7 +83,7 @@
 
     <section id="asyq" class="section anatomy-section">
       <div class="container">
-        <div class="section-heading reveal"><div><p class="eyebrow">02 / ОЙЫННЫҢ БАСТЫ ҚҰРАЛЫ</p><h2>Асық деген <span class="serif">не?</span></h2></div><p class="section-summary">Табиғаттан алынған шағын сүйек<br>ұлттық ойынның өзегіне айналды.</p></div>
+        <div class="section-heading reveal"><div><p class="eyebrow">02 / ОЙЫННЫҢ БАСТЫ ҚҰРАЛЫ</p><h2>Асық деген <span class="text-accent">не?</span></h2></div><p class="section-summary">Табиғаттан алынған шағын сүйек<br>ұлттық ойынның өзегіне айналды.</p></div>
         <div class="anatomy-grid">
           <div class="anatomy-story reveal"><span class="pill">ТАБИҒИ ОЙЫН ҚҰРАЛЫ</span><h3>Қой мен ешкінің<br>тілерсек сүйегі</h3><p>Асық — қой, ешкі сияқты жануарлардың артқы аяғындағы асық жілік пен жіліншік түйісетін тұстағы шағын буын сүйегі. Оның пішіні әр қырынан әртүрлі көрінеді.</p><p>Ойынға көбіне қойдың асығын пайдаланады. Атуға таңдалатын ірі әрі салмақты асық <strong>сақа</strong> деп аталады. Ал ортаға тізілетін ойын асықтарын <strong>кеней</strong> дейді.</p><div class="bone-fact"><svg><use href="#i-spark"/></svg><span>Әр асықтың пішіні мен салмағы бөлек. Сақаны қолға ыңғайына қарай таңдайды.</span></div></div>
           <div class="process-panel reveal"><p class="eyebrow">АСЫҚ ҚАЛАЙ АЛЫНАДЫ?</p><ol class="process-list">
@@ -94,7 +96,7 @@
     </section>
 
     <section id="qalpy" class="section container positions-section">
-      <div class="section-heading reveal"><div><p class="eyebrow">03 / ТАНЫП ҮЙРЕН</p><h2>Бір асық. <span class="serif">Төрт қалып.</span></h2></div><p class="section-summary">Карточканы таңда.<br>Асықтың қалай түсетінін ажырат.</p></div>
+      <div class="section-heading reveal"><div><p class="eyebrow">03 / ТАНЫП ҮЙРЕН</p><h2>Бір асық. <span class="text-accent">Төрт қалып.</span></h2></div><p class="section-summary">Карточканы таңда.<br>Асықтың қалай түсетінін ажырат.</p></div>
       <div class="position-cards" role="tablist" aria-label="Асықтың түсу қалыптары">
         <button id="tab-alshy" class="position-card is-selected reveal" role="tab" aria-selected="true" aria-controls="position-detail" tabindex="0" data-position="alshy"><span class="position-number">01</span><span class="position-image image-alshy" role="img" aria-label="Алшы қалпының көрнекі бейнесі"></span><span class="position-name">Алшы</span><span class="position-hint">Қырынан түскен қалып</span><span class="position-plus" aria-hidden="true">↗</span></button>
         <button id="tab-taike" class="position-card reveal" role="tab" aria-selected="false" aria-controls="position-detail" tabindex="-1" data-position="taike"><span class="position-number">02</span><span class="position-image image-taike" role="img" aria-label="Тәйке қалпының көрнекі бейнесі"></span><span class="position-name">Тәйке</span><span class="position-hint">Алшыға қарама-қарсы</span><span class="position-plus" aria-hidden="true">↗</span></button>
@@ -107,7 +109,7 @@
 
     <section id="erezhe" class="section rules-section">
       <div class="container rules-grid">
-        <div class="rules-left reveal"><p class="eyebrow">04 / ОЙЫНҒА ҚОШ КЕЛДІҢ</p><h2>Көзде.<br><span class="serif">Дәлде.</span><br>Атып көр.</h2><p>Асық атуда ойыншы сақасымен ортаға тізілген асықтарды көздеп атады. Мақсат — келісілген ереже бойынша асықты белгіленген шеңберден шығару.</p><a class="button button-dark" href="#materialdar">Ойын материалдары <svg><use href="#i-arrow"/></svg></a><div class="game-diagram" aria-label="Ойын алаңының шартты сызбасы"><span class="diagram-ring"></span><div class="target-bones"><i></i><i></i><i></i></div><span class="shooting-line"></span><span class="shooter-bone"></span><span class="diagram-label">КӨМБЕ</span><span class="diagram-caption">Алаңның шартты көрінісі</span></div></div>
+        <div class="rules-left reveal"><p class="eyebrow">04 / ОЙЫНҒА ҚОШ КЕЛДІҢ</p><h2>Көзде.<br><span class="text-accent">Дәлде.</span><br>Атып көр.</h2><p>Асық атуда ойыншы сақасымен ортаға тізілген асықтарды көздеп атады. Мақсат — келісілген ереже бойынша асықты белгіленген шеңберден шығару.</p><a class="button button-dark" href="#materialdar">Ойын материалдары <svg><use href="#i-arrow"/></svg></a><div class="game-diagram" aria-label="Ойын алаңының шартты сызбасы"><span class="diagram-ring"></span><div class="target-bones"><i></i><i></i><i></i></div><span class="shooting-line"></span><span class="shooter-bone"></span><span class="diagram-label">КӨМБЕ</span><span class="diagram-caption">Алаңның шартты көрінісі</span></div></div>
         <div class="rule-steps">
           <article class="rule-step reveal"><span class="step-number">01</span><div><h3>Алаңды дайында</h3><p>Тегіс жерге шеңбер сызып, ортасына асықтарды тізеді. Ату сызығын — көмбені белгілейді.</p></div><svg><use href="#i-target"/></svg></article>
           <article class="rule-step reveal"><span class="step-number">02</span><div><h3>Кезекті анықта</h3><p>Ойыншылар кезек тәртібін келіседі. Дәстүрлі нұсқаларда кезек сақаны иіру арқылы да анықталады.</p></div><svg><use href="#i-people"/></svg></article>
@@ -119,13 +121,13 @@
     </section>
 
     <section class="section container benefits-section">
-      <div class="section-heading reveal"><div><p class="eyebrow">05 / ОЙЫННАН ҮЙРЕНЕРІМІЗ</p><h2>Ойнаған сайын <span class="serif">өсесің.</span></h2></div></div>
+      <div class="section-heading reveal"><div><p class="eyebrow">05 / ОЙЫННАН ҮЙРЕНЕРІМІЗ</p><h2>Ойнаған сайын <span class="text-accent">өсесің.</span></h2></div></div>
       <div class="benefits-grid"><article class="benefit reveal"><svg><use href="#i-target"/></svg><span>01 / МЕРГЕНДІК</span><h3>Нысананы дәлдеу</h3><p>Көзбен мөлшерлеу мен қол қимылын үйлестіруге жаттығасың.</p></article><article class="benefit reveal"><svg><use href="#i-hand"/></svg><span>02 / ЕПТІЛІК</span><h3>Қимылды меңгеру</h3><p>Сақаны ұстау, күшті реттеу және дәл ату машығын үйренесің.</p></article><article class="benefit reveal"><svg><use href="#i-people"/></svg><span>03 / ДОСТЫҚ</span><h3>Бірге ойнау</h3><p>Кезек күтуді, әділ жарысуды және қарсыласыңды құрметтеуді үйренесің.</p></article><article class="benefit reveal"><svg><use href="#i-spark"/></svg><span>04 / МӘДЕНИЕТ</span><h3>Дәстүрді жалғау</h3><p>Ұлттық ойын атауларын танып, үлкендерден жеткен мұраны сақтайсың.</p></article></div>
     </section>
 
     <section id="materialdar" class="section materials-section">
       <div class="container">
-        <div class="section-heading reveal"><div><p class="eyebrow">06 / КӨР. ҮЙРЕН. ЗЕРТТЕ.</p><h2>Жобаның <span class="serif">тірі сәттері.</span></h2></div><p class="section-summary">Мектептегі зерттеуден жиналған<br>фотосуреттер, видео және сауалнама.</p></div>
+        <div class="section-heading reveal"><div><p class="eyebrow">06 / КӨР. ҮЙРЕН. ЗЕРТТЕ.</p><h2>Жобаның <span class="text-accent">тірі сәттері.</span></h2></div><p class="section-summary">Мектептегі зерттеуден жиналған<br>фотосуреттер, видео және сауалнама.</p></div>
         <div class="media-grid">
           <button class="media-card photo-card reveal" data-open="photos"><div class="media-image"><img src="assets/research-2.webp" width="1000" height="1335" loading="lazy" alt="Оқушы сыныпта асық ойыны туралы сауалнаманы таныстырып жатыр"><span class="media-badge">4 ФОТОСУРЕТ</span></div><div class="media-card-bottom"><span><small>ЗЕРТТЕУ КҮНДЕЛІГІ</small><strong>Сурет</strong></span><span class="media-arrow"><svg><use href="#i-arrow-up"/></svg></span></div></button>
           <button class="media-card video-card reveal" data-open="video"><div class="media-image"><img src="assets/video-poster.webp" width="1024" height="576" loading="lazy" alt="Асық ату жобасының видеосынан көрініс"><span class="media-badge">01:39 / ВИДЕО</span><span class="large-play"><svg><use href="#i-play"/></svg></span></div><div class="media-card-bottom"><span><small>ЖОБАМЕН ТАНЫСУ</small><strong>Видео</strong></span><span class="media-arrow"><svg><use href="#i-arrow-up"/></svg></span></div></button>
@@ -136,11 +138,11 @@
     </section>
 
     <section id="zertteu" class="section container research-section">
-      <div class="research-heading reveal"><p class="eyebrow">07 / ОҚУШЫЛАРДЫҢ ПІКІРІ</p><h2>Дәстүрге қызығушылық.<br><span class="serif">Деректер сөйлесін.</span></h2><p>Жоба материалдарында 3–7 сынып оқушыларының сауалнамасы берілген. Презентацияда 50 респондент көрсетілген.</p><button class="button button-outline" data-open="report">Нәтижелерді ашу <svg><use href="#i-arrow-up"/></svg></button></div>
+      <div class="research-heading reveal"><p class="eyebrow">07 / ОҚУШЫЛАРДЫҢ ПІКІРІ</p><h2>Дәстүрге қызығушылық.<br><span class="text-accent">Деректер сөйлесін.</span></h2><p>Жоба материалдарында 3–7 сынып оқушыларының сауалнамасы берілген. Презентацияда 50 респондент көрсетілген.</p><button class="button button-outline" data-open="report">Нәтижелерді ашу <svg><use href="#i-arrow-up"/></svg></button></div>
       <div class="research-stats"><article class="stat-block reveal"><span class="stat-number"><span data-count="88">88</span><small>%</small></span><h3>Көрнекі оқуды қолдайды</h3><p>Макет пен сайт арқылы үйренуді қолайлы деп бағалаған.</p><div class="stat-bar" aria-hidden="true"><i style="--value:88%"></i></div></article><article class="stat-block reveal"><span class="stat-number"><span data-count="76">76</span><small>%</small></span><h3>Қалыптарды ажырату қиын</h3><p>Word құжатындағы қорытынды бойынша төрт қалыпты дұрыс ажырата алмайды.</p><div class="stat-bar peach" aria-hidden="true"><i style="--value:76%"></i></div></article><article class="stat-block reveal"><span class="stat-number"><span data-count="82">82</span><small>%</small></span><h3>Қатысуға қызығушылық бар</h3><p>Үйірме немесе онлайн платформа ашылса, қатысуға ниетті.</p><div class="stat-bar lavender" aria-hidden="true"><i style="--value:82%"></i></div></article></div>
       <p class="source-note research-source">Дереккөз: берілген Word құжаты мен жоба презентациясы. Қалыптарды тану көрсеткіші құжат мәтінінде 24% / 76%, диаграммада 24,5% / 75,5% түрінде берілген. Мұнда мәтіндегі дөңгелектелген мәндер қолданылды.</p>
     </section>
-    <section class="closing-section"><div class="container closing-inner reveal"><span class="closing-star" aria-hidden="true">✳</span><p class="eyebrow">ҰЛТТЫҚ ОЙЫНДЫ БІРГЕ ЖАЛҒАЙЫҚ</p><h2>Сенің асығың<br><span class="serif">алшы түссін!</span></h2><a class="button button-dark" href="#qalpy">Төрт қалыпты қайталау <svg><use href="#i-arrow"/></svg></a></div></section>
+    <section class="closing-section"><div class="container closing-inner reveal"><span class="closing-star" aria-hidden="true">✳</span><p class="eyebrow">ҰЛТТЫҚ ОЙЫНДЫ БІРГЕ ЖАЛҒАЙЫҚ</p><h2>Сенің асығың<br><span class="text-accent">алшы түссін!</span></h2><a class="button button-dark" href="#qalpy">Төрт қалыпты қайталау <svg><use href="#i-arrow"/></svg></a></div></section>
   </main>
   <footer class="site-footer container"><div class="footer-top"><a class="footer-brand" href="#">ASYQ<span>Қазақтың ұлттық ойыны — асық ату</span></a><a class="back-top" href="#">Жоғарыға <svg><use href="#i-arrow-up"/></svg></a></div><div class="footer-bottom"><p>Ұлттық мұраны танытатын білім беру жобасы.</p><div class="footer-sources"><a href="https://ich.unesco.org/en/RL/kazakh-traditional-assyk-games-01086" target="_blank" rel="noopener noreferrer">ЮНЕСКО</a><a href="https://nnpcfk.kz/images/pdf-fail/asyq_atu.pdf" target="_blank" rel="noopener noreferrer">Асық ату ережелері</a><a href="https://assembly.kz/ru/ethnos/kk/kazakhi/natsionalnye-igry/asy/" target="_blank" rel="noopener noreferrer">Асық туралы</a></div></div></footer>
 
